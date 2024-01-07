@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>E-mail cím generátor</title>
+</head>
+<body>
+    <label for="teljesNevInput">Teljes név: </label>
+    <input type="text" id="teljesNevInput">
+
+    <label for="szuletesiEvInput">Születési év: </label>
+    <input type="number" id="szuletesiEvInput" value="1970">
+
+    <button onclick="generateEmail()">Generálj E-mailt</button>
+
+    <div id="eredmeny"></div>
+</body>
+</html>
